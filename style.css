@@ -1,8 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
 background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131, 228) 23.4375%, 32.0312%, rgb(100, 141, 226) 40.625%, 47.0052%, rgb(151, 88, 234) 53.3854%, 66.5365%, rgb(169, 75, 238) 79.6875%, 89.8438%, rgb(186, 67, 239) 100%);
   }
 
-  .container {
+.container {
   max-width: 400px;
   width: 100%;
   margin: 0 auto;
@@ -22,10 +28,101 @@ background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131,
     color: #313033;
     font-weight: 900; 
     margin-bottom: 10px;
+    font-size: 35px;
     
 }
 
-#contact button[type="submit"] {
-    background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131, 228) 23.4375%, 32.0312%, rgb(100, 141, 226) 40.625%, 47.0052%, rgb(151, 88, 234) 53.3854%, 66.5365%, rgb(169, 75, 238) 79.6875%, 89.8438%, rgb(186, 67, 239) 100%);
-    
+#contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
   }
+
+
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+       background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131, 228) 23.4375%, 32.0312%, rgb(100, 141, 226) 40.625%, 47.0052%, rgb(151, 88, 234) 53.3854%, 66.5365%, rgb(169, 75, 238) 79.6875%, 89.8438%, rgb(186, 67, 239) 100%);
+      border-radius: 25px;
+    width: 100%;
+    border: none;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131, 228) 23.4375%, 32.0312%, rgb(100, 141, 226) 40.625%, 47.0052%, rgb(151, 88, 234) 53.3854%, 66.5365%, rgb(169, 75, 238) 79.6875%, 89.8438%, rgb(186, 67, 239) 100%);
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
+  
+  #contact input:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+
+  #contact select {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+  }
+  
+  #contact select:hover {
+    -webkit-transition: border-color 0.3s ease-in-out;
+    -moz-transition: border-color 0.3s ease-in-out;
+    transition: border-color 0.3s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact select:focus {
+    outline: 0;
+    border: 1px solid #aaa;
+  }
+  
+  
+
+  
