@@ -17,7 +17,15 @@ background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131,
     box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
   }
   
-#contact .h3 {
+  #contact h3 {
     text-align: center;
-
+    color: #313033;
+    font-weight: 900; 
+    margin-bottom: 10px;
+    
 }
+
+#contact button[type="submit"] {
+    background: linear-gradient(90deg, rgb(97, 146, 226) 0%, 11.7188%, rgb(107, 131, 228) 23.4375%, 32.0312%, rgb(100, 141, 226) 40.625%, 47.0052%, rgb(151, 88, 234) 53.3854%, 66.5365%, rgb(169, 75, 238) 79.6875%, 89.8438%, rgb(186, 67, 239) 100%);
+    
+  }
