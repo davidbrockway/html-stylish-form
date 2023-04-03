@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 font-family: sans-serif;
+color: #A4A3A2;
 }
 
 body {
@@ -52,11 +53,13 @@ max-width: 500px;
   background: #FFF;
   background-color: transparent;
   margin: 0 0 5px;
-    padding: 10px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     border: none;
       font-size: 17px;
   }
- #contac#contact input[type="text"],
+#contact input[type="text"],
 #contact input[type="email"],
 #contact input[type="tel"],
 #contact input[type="url"],
@@ -66,7 +69,9 @@ max-width: 500px;
   background-color: transparent;
   /* Add this line */
   margin: 0 0 5px;
-  padding: 10px;
+  padding: 0px;
+  padding-top: 10px;
+  padding-bottom: 10px;
   border: none;
   font-size: 15px;
 
@@ -112,7 +117,9 @@ resize: none;
   background: #FFF;
   background-color: transparent;
   margin: 0 0 5px;
-    padding: 10px;
+    padding: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     font-size: 15px;
     -webkit-appearance: none;
     -moz-appearance: none;
@@ -122,6 +129,8 @@ resize: none;
     background-position-x: 95%;
     background-position-y: 50%;
     border: none;
+    color: black;
+
   }
   
   #contact select:hover {
@@ -139,4 +148,8 @@ hr {
     outline: 0;
     border: 1px solid #aaa;
   
+    }
+
+    ::placeholder {
+      color: #dadbdb;
     }
