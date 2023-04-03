@@ -120,10 +120,10 @@ resize: none;
     -webkit-appearance: none;
     -moz-appearance: none;
     appearance: none;
-  background-image: url("down-arrow.png");
-  background-repeat: no-repeat;
-    background-position-x: 95%;
-    background-position-y: 50%;
+    background-image: url(sort-arrows-icon.svg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 10px;
     border: none;
     color: black;
 
